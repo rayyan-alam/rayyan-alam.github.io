@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Rock Paper Scissors Game</title>
+</head>
+<body>
+  <div class="header">
+    <div class="header-content">
+      <img class="easy-logo" src="images/logo.svg" alt="">
+      <img class="hard-logo" src="images/logo-bonus.svg" alt="">
+    </div>
+    <div class="score-tab">
+      <p>score</p>
+      <span class="score-value">0</span>
+    </div>
+  </div>
+  <div class="chose-container">
+    <div class="chosen-container">
+      <div class="user-container user-ripple">
+        <div class="chose-header">
+          <h3 class="user-header">YOU PICKED</h3>
+        </div>
+        <div class="paper-container-user">
+          <img src="images/icon-paper.svg" alt="">
+        </div>
+        <div class="scissors-container-user">
+          <img src="images/icon-scissors.svg" alt="">
+        </div>
+        <div class="rock-container-user">
+          <img src="images/icon-rock.svg" alt="">
+        </div>
+        <div class="lizard-container-user">
+          <img src="images/icon-lizard.svg" alt="">
+        </div>
+        <div class="spock-container-user">
+          <img src="images/icon-spock.svg" alt="">
+        </div>
+      </div>
+      <div class="result">
+        <h1 class="result-content">YOU LOSE</h1>
+        <button class="result-btn">PLAY AGAIN</button>
+      </div>
+      <div class="cpu-container cpu-ripple">
+        <div class="cpu-header">
+          <h3 class="cpu-header">CPU PICKED</h3>
+        </div>
+        <div class="paper-container-cpu">
+          <img src="images/icon-paper.svg" alt="">
+        </div>
+        <div class="scissors-container-cpu">
+          <img src="images/icon-scissors.svg" alt="">
+        </div>
+        <div class="rock-container-cpu">
+          <img src="images/icon-rock.svg" alt="">
+        </div>
+        <div class="lizard-container-cpu">
+          <img src="images/icon-lizard.svg" alt="">
+        </div>
+        <div class="spock-container-cpu">
+          <img src="images/icon-spock.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main-content">
+    <div class="triangle-container">
+      <img class="triangle" src="images/bg-triangle.svg" alt="">
+    </div>
+    <div class="paper-container">
+      <button class="paper-btn"><img class="paper" src="images/icon-paper.svg" alt=""></button>
+    </div>
+    <div class="scissors-container">
+      <button class="scissors-btn"><img class="scissors" src="images/icon-scissors.svg" alt=""></button> 
+    </div>
+    <div class="rock-container">
+      <button class="rock-btn"> <img class="rock" src="images/icon-rock.svg" alt=""></button>
+    </div>
+  </div>
+  <div class="main-content-bonus">
+    <div class="pentagon-container">
+      <img class="pentagon" src="images/bg-pentagon.svg" alt="">
+    </div>
+    <div class="paper-container-bonus">
+      <button class="paper-btn"><img class="paper" src="images/icon-paper.svg" alt=""></button>
+    </div>
+    <div class="scissors-container-bonus">
+      <button class="scissors-btn"><img class="scissors" src="images/icon-scissors.svg" alt=""></button> 
+    </div>
+    <div class="rock-container-bonus">
+      <button class="rock-btn"> <img class="rock" src="images/icon-rock.svg" alt=""></button>
+    </div>
+    <div class="lizard-container">
+      <button class="lizard-btn"><img class="lizard" src="images/icon-lizard.svg" alt=""></button>
+    </div>
+    <div class="spock-container">
+      <button class="spock-btn"><img src="images/icon-spock.svg" alt="" class="spock"></button>
+    </div>
+  </div>
+  <div class="rules">
+    <div class="buttons-change">
+      <div>
+        <button class="hard-btn">HARD</button>
+        <button class="easy-btn">EASY</button>
+      </div>
+      <div>
+        <button class="rules-btn">RULES</button>
+      </div>
+    </div>
+    <div class="img-rules">
+      <div class="rules-book-header">
+        <h1>RULES</h1>
+        <button class="close-btn"><img class="close-btn-img" src="images/icon-close.svg" alt=""></button>
+      </div>
+      <img class="easy-rules-book" src="images/image-rules.svg" alt="">
+      <img class="hard-rules-book" src="images/image-rules-bonus.svg" alt="">
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
